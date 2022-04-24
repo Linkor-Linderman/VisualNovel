@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+
+
+
+
+
+
+    <style name="blackBlueView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/rectangleblackblue</item>
+        <item name="android:background">@drawable/rectangleblackblue</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/blackBlue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/quattrocentosans</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.02</item>
+    </style>
+
+    <style name="whiteBlueView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/rectangleblue</item>
+        <item name="android:background">@drawable/rectangleblue</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/quattrocentosans</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.02</item>
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+</resources>

@@ -20,7 +20,7 @@ jobs:
         distribution: 'temurin'
       
     - name: Uninstall  build-tool version 31.0.0
-      run: cd $ANDROID_HOME/build-tools/32.0.0; ln -s d8 dx; ln -s lib/d8.jar lib/dx.jar; 
+      run: cd /usr/local/lib/android/sdk/build-tools/32.0.0/lib \ && mv d8 dx \ && cd lib  \&& mv d8.jar dx.jar
       
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
